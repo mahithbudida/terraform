@@ -16,3 +16,20 @@ variable "input" {}
 output "output" {
   value = var.input
 }
+//Data types in Variable
+
+variable "string" {
+  default = "Mahiht"
+}
+variable "number" {
+  default = 9738984846
+}
+variable "boolean" {
+  default = True
+}
+
+output "data-type"{
+  value = "Name=${var.string}"
+}
+
+// Variable types
