@@ -24,7 +24,7 @@ variable "string" {
 variable "number" {
   default = 9738984846
 }
-variable "boolean" {
+variable "boo" {
   default = True
 }
 
