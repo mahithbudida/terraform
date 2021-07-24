@@ -29,7 +29,7 @@ variable "boo" {
 }
 
 output "data-type"{
-  value = "Name=${var.string}"
+  value = "Name=${var.string} , Boo = ${var.boo}"
 }
 
 // Variable types
