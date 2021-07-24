@@ -25,7 +25,7 @@ variable "number" {
   default = 9738984846
 }
 variable "boo" {
-  default = True
+  default =true
 }
 
 output "data-type"{
