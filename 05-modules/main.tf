@@ -4,7 +4,7 @@ module "sg" {
 
 module "ec2" {
   source      = "./ec2"
-  depends_on  = module.sg
+  depends_on  = [module.sg]
   SG_ID       = module.sg.SG_ID
   TYPE        = "ts.small"
 
