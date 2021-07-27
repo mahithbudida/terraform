@@ -12,3 +12,5 @@ provider "aws" {
 variable "TYPE" {
   default = null
 }
+
+//terraform apply -auto-approve -var TYPE=t2.micro execute this query
