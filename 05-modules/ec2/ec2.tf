@@ -15,3 +15,6 @@ variable "SG_ID" {}
 output "PRIVATE_IP" {
   value = "aws_instance.sample.*.private_ip"
 }
+output "PUBLIC_IP" {
+  value = "aws_instance.sample.*.public_ip"
+}
