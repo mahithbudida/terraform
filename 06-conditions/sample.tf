@@ -1,6 +1,6 @@
 resource "aws_instance" "sample" {
   ami            = "ami-074df373d6bafa625"
-  instance_type  = var.TYPE == NULL ? "t3.micro" : var.TYPE
+  instance_type  = var.TYPE == null ? "t3.micro" : var.TYPE
   tags           = {Name = "sample"}
 }
 
