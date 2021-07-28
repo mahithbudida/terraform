@@ -18,5 +18,5 @@ variable "spot" {
 }
 
 output "Output" {
-  value = var.spot.*.spot_price
+  value = var.spot.spot_price
 }
