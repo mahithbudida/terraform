@@ -14,7 +14,7 @@ provider "aws" {
 
 
 variable "spot" {
-  value = data.aws_ec2_spot_price.example
+  default = data.aws_ec2_spot_price.example
 }
 
 output "Output" {
