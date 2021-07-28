@@ -13,10 +13,6 @@ provider "aws" {
 }
 
 
-variable "spot" {
-  default = data.aws_ec2_spot_price.example
-}
-
-output "Output" {
-  value = var.spot.spot_price
+output "spot" {
+  value = data.aws_ec2_spot_price.example
 }
